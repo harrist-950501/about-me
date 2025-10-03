@@ -52,11 +52,11 @@ body > footer {
   padding: 10px;
 }
 
-body > footer, #iusmPics {
+body > footer, #_iusm_pics {
   display: flex;
 }
 
-article.contactInformation {
+article._contact_information {
   text-align: center;
   width: 60%;
 }
