@@ -7,17 +7,14 @@
 */
 
 body {
-  background-color:beige;
-
+  background-color: beige;
   font-family: "SUSE Mono", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   color: cadetblue;
-
   margin-left: auto;
   margin-right: auto;
-
   width: 80%;
 }
 
@@ -41,28 +38,29 @@ blockquote p {
 
 blockquote footer {
   text-align: right;
+}
+
+blockquote footer, body > footer {
   font-size: small;
 }
 
 body > footer {
-  display: flex;
   flex-flow: column;
   align-items: center;
-
-  font-size: small;
-
   border: 2px solid #d4d48c;
   margin-top: 5em;
   padding: 10px;
 }
 
-article.contact_information {
-  text-align: center;
+body > footer, #iusmPics {
+  display: flex;
+}
 
+article.contactInformation {
+  text-align: center;
   width: 60%;
 }
 
-#iusm_pics {
-  display: flex;
+#iusmPics {
   flex-flow: row wrap;
 }
