@@ -3,14 +3,66 @@
   Date: 09.03.2025
   Section: CSE 154 AA
 
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
-  ***
+  THis is the overall stylesheet for iusm.html and about.html.
 */
 
 body {
   background-color:beige;
-  font-family: "Helvetica", sans-serif;
+
+  font-family: "SUSE Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: cadetblue;
+
   margin-left: auto;
   margin-right: auto;
+
   width: 80%;
+}
+
+p.note {
+  font-size: 13px;
+  color: #b0b0c8;
+}
+
+img.icon {
+  height: 70px;
+}
+
+img {
+  height: 300px;
+  margin: 5px;
+}
+
+blockquote p {
+  font-size: large;
+}
+
+blockquote footer {
+  text-align: right;
+  font-size: small;
+}
+
+body > footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  font-size: small;
+
+  border: 2px solid #d4d48c;
+  margin-top: 5em;
+  padding: 10px;
+}
+
+article.contact_information {
+  text-align: center;
+
+  width: 60%;
+}
+
+#iusm_pics {
+  display: flex;
+  flex-flow: row wrap;
 }
