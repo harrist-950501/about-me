@@ -1,2 +1,2 @@
-.*
-!/project-summary.md
+.gitignore
+project-summary.md
