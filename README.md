@@ -22,7 +22,7 @@ This project introduces me, my interests, coursework, and student involvement at
 
 ## Project Structure
 
-- `about.html` - main personal introduction page
+- `index.html` - main personal introduction page
 - `iusm.html` - student organization page
 - `styles.css` - shared stylesheet
 - `pictures/` - image assets used by the site
@@ -33,7 +33,7 @@ I built this project to practice writing structured HTML, reusable CSS, and cons
 
 ## Live Site
 
-Add your GitHub Pages link here after publishing.
+[about me](https://harrist-950501.github.io/about-me/)
 
 ## Author
 
